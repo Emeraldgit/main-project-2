@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 35%;
+  background-image: linear-gradient();
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* navbar section css begins here */
+.navbar-section-div {
+  background-color: transparent;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 0%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-left: 8%;
+}
+.navbar-section-div ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: large;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin-left: 30%;
+}
+.navbar-section-div div button {
+  background-color: transparent;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  font-family: sans-serif;
+  width: 160px;
+  height: 50px;
+  border-color: white;
+}
+/* navbar section css ends here */
+
+/* hero section css begins here */
+.hero-section {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.251),
+      rgba(0, 0, 255, 0.223),
+      rgba(0, 0, 0, 0.223)
+    ),
+    url(header-hero.jpg);
+  /* background-image: url(header-hero.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  padding: 40px;
+  align-content: center;
+  justify-items: center;
+}
+.hero-section h3 {
+  margin-top: 90px;
+  font-size: larger;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  letter-spacing: -3px;
+  padding-left: 20px;
+  margin-right: 30px;
+}
+.hero-section h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  width: 40%;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+.hero-section p {
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  width: 20%;
+  margin-bottom: 15px;
+  margin-left: 45px;
+}
+.hero-section div button {
+  background-color: goldenrod;
+  width: 170px;
+  height: 50px;
+  color: rgba(172, 255, 47, 0.674));
+  border-color: transparent;
+  border-radius: 10px;
+  font-size: large;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.hero-section div button:hover {
+  background-color: rgba(218, 165, 32, 0.418);
+}
+/* hero section css ends here */
+
+/* destination section css begins here */
+.dest-section h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 250%;
+    font-family: sans-serif;
+    color: rgba(0, 128, 0, 0.466);
+  }
+
+  .dest-flex-container {
+    display: flex;
+    gap: 1px;
+    margin-top: 50px;
+    
+  }
+.dest-flex-container div div > img {
+    margin-left: 80px;
+    width: 70%;
+    display: flex;
+  }
+
+.dest-flex-container div div > h4 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(0, 128, 0, 0.622);
+    margin-bottom: 15px;
+    margin-right: 180px;
+  }
+  .dest-flex-container div div > h5 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(0, 128, 0, 0.382);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    width: 60%;
+    margin-left: 20%;
+  }
+ 
+  /* about us section css begins here */
+.about-us-section {
+    background-color:  #f6f8f5;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-us-flex-container {
+    display: flex;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first-child > h1 {
+    font-size: 100px;
+
+  }
+  .first-child > h2 {
+    font-size: 200%;
+  }
